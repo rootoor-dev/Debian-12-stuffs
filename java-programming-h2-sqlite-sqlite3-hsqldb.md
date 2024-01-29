@@ -45,3 +45,7 @@ Before integrating the JAR files into your project, follow these steps:
 ## Conclusion
 
 By following these steps, you have successfully downloaded, renamed, and integrated the necessary database JAR files into your Java project. This ensures smooth integration of HSQLDB, H2, and SQLite databases, enhancing your project's functionality.
+
+
+[Get more details step-by-step clicking here](https://github.com/rootoor-dev/Debian-12-stuffs/blob/main/Guide:%20Integrating%20h2%20HSQLDB%20SQLite%20Database%20JAR%20Files%20in%20a%20Java%20Project.md)
+
