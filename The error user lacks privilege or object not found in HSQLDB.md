@@ -1,5 +1,27 @@
-The error "user lacks privilege or object not found" in HSQLDB can have various causes. Based on the provided solutions and context, here are some suggestions:
+The error `user lacks privilege or object not found` in **SQLite**, **HSQLDB** or **H2** can have various causes. 
+Based on the provided solutions and context found checking the Internet, here are some suggestions:
 
+# Solutions
+
+## Best Solution
+`user lacks privilege or object not found` can have multiple causes, the most obvious being you're accessing a table that does not exist or is not created with correct rights. 
+
+## filepath : jdbc:THE-DATABASE-ENGINE-USED:file:«database/path?»
+Our database files are preferentially located at `/home/YOUR-USERNAME/Templates/db/`. You can adapt to your convenience.
+
+- H2 : `jdbc:h2:file:/home/YOUR-USERNAME/Templates/db/h2testdb`
+- HSQLDB : `jdbc:hsql:file:/home/YOUR-USERNAME/Templates/db/h2testdb`
+- SQLite : `jdbc:sqlite:file:/home/YOUR-USERNAME/Templates/db/h2testdb`
+
+```shell
+# create the repersotry
+mkdir /home/YOUR-USERNAME/Templates/db/ && cd /home/YOUR-USERNAME/Templates/db/
+# create the database file named "mydatabase" or with extension suchas ".db", ".sqlite", etc.
+touch mydatabase.db
+# IMPORTANT STEP : give "read and write rights" to the created file of the database
+chmod 775 mydatabase.db
+```
+## OTHER SOLUTION (replace HSQLDB by your database engine)
 ### Solution 1:
 #### Issue: Database Alias Name in Connection String
 - Ensure that the database alias name is correct in your connection string.
