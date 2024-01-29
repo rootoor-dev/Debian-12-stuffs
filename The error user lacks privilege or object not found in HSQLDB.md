@@ -11,9 +11,9 @@ However, there are some common patterns that you might find across different JDB
 
 jdbc:<subprotocol>:<subname>
 ```
-- jdbc: Indicates that JDBC is being used.
-- <subprotocol>: The database-specific subprotocol, which defines how the JDBC driver connects to the database.
-- <subname>: Database-specific information that is required by the JDBC driver to connect to the database, such as the host, port, database name, and additional parameters.
+- `jdbc`: Indicates that JDBC is being used.
+- `<subprotocol>`: The database-specific subprotocol, which defines how the JDBC driver connects to the database.
+- `<subname>`: Database-specific information that is required by the JDBC driver to connect to the database, such as the host, port, database name, and additional parameters.
 
 ```
 YOUR-DATABASE-ENGINE-NAME-HERE Database Engine Standalone : jdbc:«database-engine-name-here?»:file:«database/path?»
