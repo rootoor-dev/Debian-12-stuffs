@@ -84,7 +84,7 @@ Our database files are preferentially located at `/home/YOUR-USERNAME/Templates/
 
 - H2 : `jdbc:h2:file:/home/YOUR-USERNAME/Templates/db/h2testdb`
 - HSQLDB : `jdbc:hsql:file:/home/YOUR-USERNAME/Templates/db/h2testdb`
-- SQLite : `jdbc:sqlite:file:/home/YOUR-USERNAME/Templates/db/h2testdb`
+- SQLite : `jdbc:sqlite:/home/YOUR-USERNAME/Templates/db/h2testdb`
 
 ```shell
 # create the repersotry
