@@ -102,3 +102,9 @@ For example, in Eclipse, follow these steps:
 4. Browse to the directory containing the JAR files and select them.
 
 Once done, your Java project is ready to use H2, HSQLDB, or SQLite databases. Refer to the respective documentation of each database to learn how to interact with it using Java.
+
+
+For shortest explanations [see here !](https://github.com/rootoor-dev/Debian-12-stuffs/blob/main/java-programming-h2-sqlite-sqlite3-hsqldb.md)
+
+
+
